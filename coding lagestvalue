@@ -1,0 +1,32 @@
+package SELFPROGRAMMING;
+
+import java.util.Scanner;
+
+public class largestvalue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int largest=0;
+		
+		System.out.println("Enter a: ");
+		int a = sc.nextInt();
+
+		System.out.println("Enter b: ");
+		int b = sc.nextInt();
+
+        System.out.println("Enter c: ");
+		int c = sc.nextInt();
+		
+		if(a>=b&&a>=c)
+			largest = a;
+			else if (b>=a&&b>=c)
+			largest = b;	
+			else if (c>=a&&c>=b)
+				largest = c;	
+
+		System.out.println("The largest number is " + largest);
+
+	}
+
+}
