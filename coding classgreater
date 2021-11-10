@@ -1,0 +1,23 @@
+package SELFPROGRAMMING;
+
+import java.util.Scanner;
+
+public class classgreater {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter number 1: ");
+		double num1 = sc.nextDouble();
+		System.out.println("Enter number2: ");
+		double num2 = sc.nextDouble();
+
+		if(num1>num2)
+			System.out.print("Number 1 is greater than Number 2.");
+			else
+			System.out.print("Number 2 is greater than Number 1.");	
+
+	}
+
+}
