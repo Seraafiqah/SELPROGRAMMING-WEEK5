@@ -1,0 +1,15 @@
+package SELFPROGRAMMING;
+
+public class classcount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double y = 10.0;
+		double x = 30.0;
+
+		if (y!=x)
+			System.out.print("Result: Y is not equal to x");
+
+	}
+
+}
