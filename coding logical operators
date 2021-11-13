@@ -1,0 +1,17 @@
+package SELFPROGRAMMING;
+
+public class logicaloperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+int income = 1500;
+int age = 45;
+
+if ((income > 1500) && (age <45));
+System.out.println("Can Apply Loan: ");
+
+	
+	}
+
+}
