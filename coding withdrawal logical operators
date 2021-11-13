@@ -4,8 +4,8 @@ public class withdrawalLogicalOperators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int amount = 1000;
-double balance = 50.50;
+int amount = 500;
+double balance = 5000;
 
 if ((amount <= 1000.0) && (amount <= balance));
 balance = balance - amount;
