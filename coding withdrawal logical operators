@@ -1,0 +1,17 @@
+package SELFPROGRAMMING;
+
+public class withdrawalLogicalOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int amount = 1000;
+double balance = 50.50;
+
+if ((amount <= 1000.0) && (amount <= balance));
+balance = balance - amount;
+System.out.println("Acct new balance = " + balance);
+
+
+	}
+
+}
